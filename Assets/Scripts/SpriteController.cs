@@ -10,7 +10,7 @@ public class SpriteController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject.Find("Astronaut").AddComponent<Rigidbody2D>();
     }
 
     public Animator anim; 
