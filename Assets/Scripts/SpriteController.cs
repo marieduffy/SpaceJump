@@ -6,6 +6,8 @@ public class SpriteController : MonoBehaviour
 {
     public float speed = 1.0f;
     public Vector3 movement;
+    public Animator animator;
+    public CharacterController charController;
     
     // Start is called before the first frame update
     void Start()
@@ -32,8 +34,10 @@ public class SpriteController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            animator.SetBool("IsJumping", true);
             speed = 4.0f;
             transform.position += Vector3.up * speed * Time.deltaTime;
+            //animator.SetBool("IsJumping", false);
         }
     }
 }
