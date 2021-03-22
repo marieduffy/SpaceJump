@@ -15,14 +15,14 @@ public class SpriteController : MonoBehaviour
         GameObject.Find("Astronaut").AddComponent<Rigidbody2D>();
     }
 
-    public Animator anim; 
+    //public Animator anim; 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
-            anim = GameObject.Find("Astronaut").GetComponent<Animator>();
+            //anim = GameObject.Find("Astronaut").GetComponent<Animator>();
             //anim.speed = 1;
         }
         
@@ -37,7 +37,11 @@ public class SpriteController : MonoBehaviour
             animator.SetBool("IsJumping", true);
             speed = 4.0f;
             transform.position += Vector3.up * speed * Time.deltaTime;
-            //animator.SetBool("IsJumping", false);
+            
+        }
+        else
+        {
+            animator.SetBool("IsJumping", false);
         }
     }
 }
