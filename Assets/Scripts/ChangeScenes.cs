@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScenes : MonoBehaviour
 {
-    public string newLevel;
+    //public string newLevel;
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
         {
-            SceneManager.LoadScene(newLevel);
+            SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+
         }
     }
 }

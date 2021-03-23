@@ -15,4 +15,9 @@ public class ButtonsContoller : MonoBehaviour
     {
         SceneManager.LoadScene("WelcomePage");
     }
+
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("Level1");
+    }
 }
