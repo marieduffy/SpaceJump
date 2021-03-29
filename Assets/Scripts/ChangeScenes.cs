@@ -12,7 +12,6 @@ public class ChangeScenes : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
-
         }
     }
 }

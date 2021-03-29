@@ -60,6 +60,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ButtonsContoller.cs" />
      <Compile Include="Assets\Scripts\ChangeScenes.cs" />
+     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\ResetScene.cs" />
      <Compile Include="Assets\Scripts\SpriteController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
