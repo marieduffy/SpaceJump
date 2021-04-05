@@ -5,7 +5,6 @@ using UnityEngine;
 public class SpriteController : MonoBehaviour
 {
     public float speed = 1.0f;
-    public Vector3 movement;
     public Animator animator;
     public CharacterController charController;
     
@@ -14,8 +13,7 @@ public class SpriteController : MonoBehaviour
     {
         GameObject.Find("Astronaut").AddComponent<Rigidbody2D>();
     }
-
-    //public Animator anim; 
+    
     // Update is called once per frame
     void Update()
     {
@@ -23,12 +21,8 @@ public class SpriteController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
-            //anim = GameObject.Find("Astronaut").GetComponent<Animator>();
-            //anim.speed = 1;
         }
         
-        // movement = Vector3(Input.GetAxis("Horizontal"), 0, 0);
-        // transform.position += movement * speed * Time.deltaTime;
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += Vector3.right * speed * Time.deltaTime;

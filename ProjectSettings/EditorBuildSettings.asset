@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: dfe7cc428232a4162b8fa1d3f2d7ee8b
+  - enabled: 1
+    path: Assets/Scenes/WinningPage.unity
+    guid: bc55cabf02ca647bbbdff653c24f7781
   m_configObjects: {}

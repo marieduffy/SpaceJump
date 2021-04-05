@@ -60,6 +60,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ButtonsContoller.cs" />
      <Compile Include="Assets\Scripts\ChangeScenes.cs" />
+     <Compile Include="Assets\Scripts\EndGame.cs" />
+     <Compile Include="Assets\Scripts\GoToWinningPage.cs" />
      <Compile Include="Assets\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\ResetScene.cs" />
