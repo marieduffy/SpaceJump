@@ -9,6 +9,7 @@ public class ButtonsContoller : MonoBehaviour
 {
     public TMP_Text TextField;
     public GameObject button;
+    private int sceneIndex;
 
     public void Start()
     {
@@ -20,14 +21,10 @@ public class ButtonsContoller : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
-    public void LoadWelcomePage()
-    {
-        SceneManager.LoadScene("WelcomePage");
-    }
-
     public void PlayNewGame()
     {
-        if (PlayerManager._instance.savedSceneIndex <= 1)
+        sceneIndex = PlayerManager._instance.savedSceneIndex;
+        if (sceneIndex <= 1 || sceneIndex == 6)
         {
             SceneManager.LoadScene("Level1");
         }
@@ -46,9 +43,10 @@ public class ButtonsContoller : MonoBehaviour
 
     public void ResumeGame()
     {
-        if (PlayerManager._instance.savedSceneIndex > 1)
+        sceneIndex = PlayerManager._instance.savedSceneIndex;
+        if (sceneIndex > 1 && sceneIndex != 6)
         {
-            SceneManager.LoadScene(PlayerManager._instance.savedSceneIndex);
+            SceneManager.LoadScene(sceneIndex);
         }
         else
         {
@@ -56,9 +54,5 @@ public class ButtonsContoller : MonoBehaviour
         }
     }
 
-    public void MainMenuSave()
-    {
-        PlayerManager._instance.savedSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene("WelcomePage");
-    }
+    
 }
