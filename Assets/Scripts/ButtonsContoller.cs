@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class ButtonsContoller : MonoBehaviour
 {
@@ -13,7 +10,6 @@ public class ButtonsContoller : MonoBehaviour
 
     public void Start()
     {
-        //button = GameObject.Find("ProceedButton");
         button.SetActive(false);
     }
     public void LoadCredits()
@@ -53,6 +49,4 @@ public class ButtonsContoller : MonoBehaviour
             TextField.text = "You do not have a game saved";
         }
     }
-
-    
 }

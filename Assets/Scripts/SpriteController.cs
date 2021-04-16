@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
     public float speed = 1.0f;
     public Animator animator;
-    public CharacterController charController;
-    
+
     // Start is called before the first frame update
     void Start()
     {

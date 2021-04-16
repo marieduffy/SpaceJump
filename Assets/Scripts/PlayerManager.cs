@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -17,8 +15,6 @@ public class PlayerManager : MonoBehaviour
         {
             DontDestroyOnLoad(this.gameObject);
             _instance = this;
-            //player = new Player();
-
         }
     }
 }
