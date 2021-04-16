@@ -10,7 +10,6 @@ public class ResetScene : MonoBehaviour
         if (fallCollider.CompareTag("Player"))
         {
             SceneManager.LoadScene(scene.name);
-            Debug.Log("Scene loaded");
         }
     }
 }
