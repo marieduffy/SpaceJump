@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 776205587036138976}
   - component: {fileID: 776205587036138977}
   - component: {fileID: -6173479420530853861}
-  - component: {fileID: 43718576861439288}
   m_Layer: 0
   m_Name: Star
   m_TagString: Untagged
@@ -229,15 +228,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &43718576861439288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776205587036138980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf5ca9af5d1148abad7aa7fc46feb95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

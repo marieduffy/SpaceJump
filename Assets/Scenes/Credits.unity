@@ -628,15 +628,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Music created by Marie Duffy in GarageBand
+  m_text: 'Sounds & Music created by Marie Duffy with GarageBand
 
 
-    ALl Animations, Sprites,
-    and Background art Created by Marie Duffy in Adobe Illustrator
+    All Animations,
+    Sprites, and Background art Created by Marie Duffy with Adobe Illustrator
 
 
-    Font is
-    Spartakus by Peter Wiegel from dafont.com'
+    All
+    Code Written by Marie Duffy with JetBrains Rider
+
+
+    Game designed and produced
+    by Marie Duffy with Unity
+
+
+    Font is Spartakus by Peter Wiegel from dafont.com'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2cbc97de348534ffb9415bb91baa39f5, type: 2}
   m_sharedMaterial: {fileID: 4086074945236298172, guid: 2cbc97de348534ffb9415bb91baa39f5,
@@ -664,8 +671,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
