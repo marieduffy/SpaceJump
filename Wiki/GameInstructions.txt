@@ -1,0 +1,8 @@
+
+In each level, your mission as the Player is to reach the star on the right side of the level in order to advance to the next level. 
+
+You need to jump from platform to platform without falling off in order to accomplish this goal.
+
+If you fall off, the level will reset and you will have to try again. 
+
+To play the game, your computer's keyboard arrows are used. To move left and right, you press the left and right arrow keys, respectively. In order to jump, press the up arrow key. 
